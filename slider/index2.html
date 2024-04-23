@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+<body>
+  
+  <div class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          
+          <img src="/img1.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <!-- <span class="blog-slider__code">26 December 2019</span> -->
+          <div class="blog-slider__title">Career Advancer</div>
+          <div class="blog-slider__text">Tigers are majestic big cats known for their striking orange coats with black stripes. They're the largest of all cat species and are found primarily in Asia, including countries like India, Russia, and China.</div>
+          <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          
+          <img src="/img2.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <!-- <span class="blog-slider__code">26 December 2019</span> -->
+          <div class="blog-slider__title">Career Advancer</div>
+          <div class="blog-slider__text">Tigers are majestic big cats known for their striking orange coats with black stripes. They're the largest of all cat species and are found primarily in Asia, including countries like India, Russia, and China.</div>
+          <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          
+          <img src="/img3.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <!-- <span class="blog-slider__code">26 December 2019</span> -->
+          <div class="blog-slider__title">Career Advancer</div>
+          <div class="blog-slider__text">Tigers are majestic big cats known for their striking orange coats with black stripes. They're the largest of all cat species and are found primarily in Asia, including countries like India, Russia, and China.</div>
+          <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+        </div>
+      </div>
+      
+      
+    </div>
+    <div class="blog-slider__pagination"></div>
+  </div>
+
+  <script>
+
+    var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+
+  </script>
+
+</body>
+</html>
